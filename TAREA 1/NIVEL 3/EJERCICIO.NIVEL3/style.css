@@ -8,11 +8,13 @@ body {
 }
 
 main {
+  border: 1px solid;
 	max-width: 500px;
-	width: 100%;
-	margin: auto;
-  margin-top: 5%;
+  position: absolute;
+  left: calc(50% - 250px);
+  top: calc(50% - 166.5px);
 	padding: 50px;
+  background-color: coral;
 }
 
 p{
@@ -32,4 +34,11 @@ input{
 .oper{
   width: 60px;
   line-height: 50px;
+  margin-top: 30px;
+}
+
+#resultado{
+  position: absolute;
+  left: calc(50% - 46px);
+
 }
