@@ -3,5 +3,5 @@ function miFun() {
   let apellido = "Ryu";
   alert(`Nombre : ${nombre}\nApellido : ${apellido}`);
   console.log(`Nombre : ${nombre}\nApellido : ${apellido}`);
-  document.getElementById("resultado").innerHTML = `Nombre : ${nombre}<br>Apellido : ${apellido}`;
+  resultado.innerHTML = `Nombre : ${nombre}<br>Apellido : ${apellido}`;
 }

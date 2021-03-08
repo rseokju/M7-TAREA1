@@ -13,7 +13,7 @@ function miFun() {
 
   alert(`${text_suma}\n${text_resta}\n${text_multi}`);
   console.log(`${text_suma}\n${text_resta}\n${text_multi}`);
-  document.getElementById("resultado").innerHTML = `${text_suma}<br>${text_resta}<br>${text_multi}`;
+  resultado.innerHTML = `${text_suma}<br>${text_resta}<br>${text_multi}`;
 }
 
 function calculadora(operador, val1, val2) {

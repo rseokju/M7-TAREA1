@@ -6,5 +6,5 @@ function miFun() {
 
   alert(`${text}\n${text_2}`);
   console.log(`${text}\n${text_2}`);
-  document.getElementById("resultado").innerHTML = `${text}<br>${text_2}`;
+  resultado.innerHTML = `${text}<br>${text_2}`;
 }

@@ -12,5 +12,5 @@ function miFun() {
 
   alert(text);
   console.log(text);
-  document.getElementById("resultado").innerHTML = text;
+  resultado.innerHTML = text;
 }
