@@ -26,19 +26,5 @@ function resta() {
 function calculador(oper) {
   let val1 = parseInt(document.getElementById('val1').value);
   let val2 = parseInt(document.getElementById('val2').value);
-
-  switch (oper) {
-    case '+': document.getElementById('resultado').value = val1 + val2;
-      break;
-    case '-': document.getElementById('resultado').value = val1 - val2;
-      break;
-    case '*': document.getElementById('resultado').value = val1 * val2;
-      break;
-    case '/': document.getElementById('resultado').value = val1 / val2;
-      break;
-    case '%': document.getElementById('resultado').value = val1 % val2;
-      break;
-    default: alert(`Introduzca el operador no está correcto, intenta otra vez por favor`);
-      break;
-  }
+  resultado.value = eval(`${val1} ${oper} ${val2}`);
 }
